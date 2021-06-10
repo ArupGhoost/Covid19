@@ -1,0 +1,466 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+:root{
+  --orange:#ff8080;
+  --background: #fffff;
+  --family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+   
+}
+img{
+  width: 70%;
+}
+.brand_name{
+  
+  display: flex;
+  
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background);
+  padding: 0px 1px;
+  
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  
+}
+.logos ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logos ul li{
+  list-style-type: none;
+  padding: 5px 5px;
+}
+.logos ul li a{
+  transition:  all .2s ease;
+  
+}
+.logos ul li a:hover{
+  color: var(--orange);
+}
+.main_nav{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: sticky;
+    top:0px;
+    z-index: 2;
+    font-size: 1.2em;
+    padding: 15px 10px;
+    border: 2px solid var(--background);
+    border-left: none;
+    border-right: none;
+    
+    font-family: var(--family);
+    background-color:  var(--orange);
+    
+}
+.main_links{
+  text-decoration: none;
+  color: white;
+  font-size: 0.88em;
+  
+}
+
+.main_background{
+  background-image: url('https://www.fda.gov/files/covid19-1600x900.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+   max-width: 100%;
+  height: 535px;
+  filter: blur(2.4px);
+}
+
+.header{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border: 5px white solid;
+  border-radius: 50px 50px;
+}
+.header h1{
+  color: white;
+  font-size: 4.1rem;
+}
+.covid_def{
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
+.covid_def_main{
+  width: 100%;
+  height: 400px;
+  background: var(--orange);
+  padding: 30px 20px;
+  color: #fff;
+  font-family: var(--family);
+  font-size: .9rem;
+}
+.covid_def_main p{
+  margin-top: 1.3rem;
+}
+
+.covid_def_main2{
+   width: 100%;
+   height: 400px;
+   background-color: #fff;
+}
+.covid_def_main2 .image1{
+  width: 50%;
+  margin-left: 10rem;
+  margin-top: 3rem;
+}
+.symptoms{
+  width: 100%;
+  height: 32.25rem;
+  background-color: var(--orange);
+
+}
+.main_symptoms{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: row;
+   padding: 40px 40px;
+}
+.symptoms h2{
+  text-align: center;
+  color: #fff;
+  font-size: 2rem;
+  font-family: var(--family);
+  padding: .8rem .8rem;
+}
+.symptoms1, .symptoms2, .symptoms3{
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  max-width: 300px;
+  color: white;
+  margin:  auto;
+   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  padding: 10px 30px 20px 30px;
+  height: 240px;
+}
+.symptoms1 h4, .symptoms2 h4, .symptoms3 h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-family: var(--family);
+ 
+}
+.symptoms1 ul li, .symptoms3 ul li{
+  padding: 0px 10px 0px 3px;
+  font-family: var(--family);
+  
+}
+.symptoms2 ul li{
+ font-family: var(--family);
+ font-size: .9rem;
+}
+
+.burger-menu{
+  display: none;
+  }
+.treatment h2{
+  text-align: center;
+  font-family: var(--family);
+  font-size: 1.8rem;
+  color: var(--orange);
+}
+.treatment-main{
+     display: flex;
+   
+    
+}
+.treatment-image{
+  width: 50%;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.treatment-given{
+width: 50%; 
+ height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+.image2{
+  width: 50%;
+  
+}
+.section1{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+
+.section2 {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.section2 p{
+  color: var(--orange);
+  font-family: var(--family);
+  font-size: 1.48rem;
+  line-height: 1.2;
+}
+.treatment-serious{
+  display: flex;
+}
+.treatment-serious-given{
+   width: 50%;
+   height: 340px;
+   background-color: #fff;
+   position: relative;
+}
+.treatment-serious-image{
+  width: 50%;
+  height: 340px;
+  background-color: #fff;
+  position: relative;
+}
+
+.section3{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+ 
+}
+.section3 p{
+  color: var(--orange);
+  font-family: var(--family);
+  font-size: 1.48rem;
+  line-height: 1.2;
+}
+
+.section4{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.image3{
+  width: 50%;
+}
+.footer{
+  display: flex;
+  height: auto;
+ background-color: var(--orange);
+ align-items: center;
+ }
+
+.about-info{
+  width: 70%;
+  height: 340px;
+  padding: 30px;
+}
+.about-info p, .about-info h3{
+  color: #fff;
+  font-family: var(--family);
+  
+}
+.about-info input{
+  width: 200px;
+  padding: 5px 5px;
+
+}
+.about-info button{
+  display: block;
+  padding: 8px;
+  background-color: #fff;
+  color: var(--orange);
+}
+.email{
+  width: 30%;
+  height: 340px;
+  padding: 20px;
+  
+}
+.email h3{
+  color: #fff;
+  font-family: var(--family);
+}
+.email a{
+    text-decoration: none;
+    background-color: #fff;
+    padding: 10px 25px 10px 25px;
+    color: var(--orange);
+    opacity: .65;
+    transition: .3s ease all;
+    font-family: var(--family);
+    
+}
+.join{
+  animation: healthify   ease-out 3s infinite;
+}
+@keyframes healthify{
+  from{
+     opacity: .65;
+     
+  }
+  to{
+    opacity: 1;
+    
+  }
+}
+.email a:hover{
+  opacity: 1;
+}
+.all-rights{
+  display: flex;
+ background-color: var(--orange);
+  justify-content: center;
+  align-items: center;
+}
+.rights{
+ color: #fff;
+ font-family: var(--family);
+ font-size: 1.08rem;
+}
+.login{
+  border: #ff8080 solid 2px;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #ff8080;
+  position: relative;
+  top: 10px;
+  height: 500px;
+}
+.main_inputs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 80px;
+  
+}
+.main_inputs input{
+  padding: 15px 15px;
+  width: 70%;
+  
+}
+.main_inputs input :focus{
+  border: #fff px solid;
+  outline: solid #fff;
+  
+}
+.active_links{
+     text-decoration: underline 2px; 
+}
+
+@media screen and (max-width: 639px){
+ .main_background{
+   height: 535px;
+   
+ }
+ 
+  img{
+    width: 95%;
+  }
+  .logos ul li{
+    
+    padding: 2px 2px;
+    margin-right: .2em;
+  }
+ 
+ .header{
+   top: 45%;
+ }
+ .header h1{
+   font-size: 3.5rem;
+ }
+.covid_def{
+  flex-direction: column-reverse;
+  width: 91%;
+ margin-left: .1rem;
+}
+.covid_def_main p{
+  margin-top: none;
+}
+
+ .covid_def_main, .covid_def_main2{
+   height: 420px;
+ }
+ .covid_def_main{
+   height: 500px;
+ }
+ .covid_def_main2 .image1{
+   width: 70%;
+   margin-left: 4.5rem;
+ }
+ .main_symptoms{
+   flex-direction: column;
+ }
+ .symptoms{
+   height: 63rem;
+ }
+ .treatment-main, .treatment-serious{
+   display: block;
+ }
+ .treatment-image, .treatment-serious-image{
+   width: 100%;
+   box-sizing: border-box;
+ }
+ .treatment-given, .treatment-serious-given{
+   width: 100%;
+   box-sizing: border-box;
+ }
+.section3 p, .section2 p{
+  font-size: 1.24rem;
+}
+.footer{
+  display: block;
+
+}
+.about-info{
+  width: 100%;
+  box-sizing: border-box;
+}
+.email{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+}
+@media  (max-width:960px){
+  .burger-menu{
+    display: block;
+    position: fixed;
+    top: 300px;
+    left: 5px;
+    font-size: 1.5rem;
+    z-index: 2;
+    background-color: transparent;
+    border: 2px solid slategray;
+    box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.3);
+    padding: 5px 3px 1px 3px;
+    
+  }
+  #hiddenmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    max-height: 400px;
+    height:20px;
+  }
+  #hiddenmain a{
+    padding: 10px 10px;
+  }
+ #hidden{
+   display: none;
+ }
+}
